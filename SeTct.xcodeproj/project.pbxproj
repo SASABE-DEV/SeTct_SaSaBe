@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380B4FD519E7BA14003355A4 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380B4FD419E7BA14003355A4 /* Icons.xcassets */; };
+		382FCD6719E77E3D00571B50 /* TTRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382FCD6619E77E3D00571B50 /* TTRWebViewController.m */; };
 		387513BA19E6CF7500883FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 387513B919E6CF7500883FA7 /* main.m */; };
 		387513BD19E6CF7500883FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387513BC19E6CF7500883FA7 /* AppDelegate.m */; };
 		387513C019E6CF7500883FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387513BF19E6CF7500883FA7 /* ViewController.m */; };
@@ -14,6 +16,11 @@
 		387513C519E6CF7500883FA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387513C419E6CF7500883FA7 /* Images.xcassets */; };
 		387513C819E6CF7500883FA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 387513C619E6CF7500883FA7 /* LaunchScreen.xib */; };
 		387513D419E6CF7500883FA7 /* SeTctTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387513D319E6CF7500883FA7 /* SeTctTests.m */; };
+		387513DF19E6CFAA00883FA7 /* TTRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387513DE19E6CFAA00883FA7 /* TTRLoginViewController.m */; };
+		387513E219E6D0DA00883FA7 /* TTRRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 387513E119E6D0DA00883FA7 /* TTRRecordManager.m */; };
+		389ABDF919E8D3E900C0470D /* uses.txt in Resources */ = {isa = PBXBuildFile; fileRef = 389ABDF819E8D3E900C0470D /* uses.txt */; };
+		38A5477D19E98B64008AEA74 /* LaunchImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A5477C19E98B64008AEA74 /* LaunchImages.xcassets */; };
+		38AC27E719E6EA490041A8AB /* TTRAgreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AC27E619E6EA490041A8AB /* TTRAgreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		380B4FD419E7BA14003355A4 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		382FCD6519E77E3D00571B50 /* TTRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRWebViewController.h; sourceTree = "<group>"; };
+		382FCD6619E77E3D00571B50 /* TTRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRWebViewController.m; sourceTree = "<group>"; };
 		387513B419E6CF7500883FA7 /* SeTct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeTct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387513B819E6CF7500883FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		387513B919E6CF7500883FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,14 @@
 		387513CD19E6CF7500883FA7 /* SeTctTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeTctTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387513D219E6CF7500883FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		387513D319E6CF7500883FA7 /* SeTctTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeTctTests.m; sourceTree = "<group>"; };
+		387513DD19E6CFAA00883FA7 /* TTRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRLoginViewController.h; sourceTree = "<group>"; };
+		387513DE19E6CFAA00883FA7 /* TTRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRLoginViewController.m; sourceTree = "<group>"; };
+		387513E019E6D0DA00883FA7 /* TTRRecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRRecordManager.h; sourceTree = "<group>"; };
+		387513E119E6D0DA00883FA7 /* TTRRecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRRecordManager.m; sourceTree = "<group>"; };
+		389ABDF819E8D3E900C0470D /* uses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = uses.txt; sourceTree = "<group>"; };
+		38A5477C19E98B64008AEA74 /* LaunchImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchImages.xcassets; sourceTree = "<group>"; };
+		38AC27E519E6EA490041A8AB /* TTRAgreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRAgreeViewController.h; sourceTree = "<group>"; };
+		38AC27E619E6EA490041A8AB /* TTRAgreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRAgreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +99,24 @@
 		387513B619E6CF7500883FA7 /* SeTct */ = {
 			isa = PBXGroup;
 			children = (
+				389ABDF819E8D3E900C0470D /* uses.txt */,
 				387513BB19E6CF7500883FA7 /* AppDelegate.h */,
 				387513BC19E6CF7500883FA7 /* AppDelegate.m */,
 				387513BE19E6CF7500883FA7 /* ViewController.h */,
 				387513BF19E6CF7500883FA7 /* ViewController.m */,
+				387513E019E6D0DA00883FA7 /* TTRRecordManager.h */,
+				387513E119E6D0DA00883FA7 /* TTRRecordManager.m */,
+				387513DD19E6CFAA00883FA7 /* TTRLoginViewController.h */,
+				387513DE19E6CFAA00883FA7 /* TTRLoginViewController.m */,
+				38AC27E519E6EA490041A8AB /* TTRAgreeViewController.h */,
+				38AC27E619E6EA490041A8AB /* TTRAgreeViewController.m */,
+				382FCD6519E77E3D00571B50 /* TTRWebViewController.h */,
+				382FCD6619E77E3D00571B50 /* TTRWebViewController.m */,
 				387513C119E6CF7500883FA7 /* Main.storyboard */,
 				387513C419E6CF7500883FA7 /* Images.xcassets */,
+				380B4FD419E7BA14003355A4 /* Icons.xcassets */,
 				387513C619E6CF7500883FA7 /* LaunchScreen.xib */,
+				38A5477C19E98B64008AEA74 /* LaunchImages.xcassets */,
 				387513B719E6CF7500883FA7 /* Supporting Files */,
 			);
 			path = SeTct;
@@ -199,9 +228,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A5477D19E98B64008AEA74 /* LaunchImages.xcassets in Resources */,
 				387513C319E6CF7500883FA7 /* Main.storyboard in Resources */,
 				387513C819E6CF7500883FA7 /* LaunchScreen.xib in Resources */,
+				380B4FD519E7BA14003355A4 /* Icons.xcassets in Resources */,
 				387513C519E6CF7500883FA7 /* Images.xcassets in Resources */,
+				389ABDF919E8D3E900C0470D /* uses.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				387513C019E6CF7500883FA7 /* ViewController.m in Sources */,
+				387513DF19E6CFAA00883FA7 /* TTRLoginViewController.m in Sources */,
+				38AC27E719E6EA490041A8AB /* TTRAgreeViewController.m in Sources */,
 				387513BD19E6CF7500883FA7 /* AppDelegate.m in Sources */,
+				387513E219E6D0DA00883FA7 /* TTRRecordManager.m in Sources */,
 				387513BA19E6CF7500883FA7 /* main.m in Sources */,
+				382FCD6719E77E3D00571B50 /* TTRWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +379,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SeTct/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -353,9 +393,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SeTct/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -412,6 +456,7 @@
 				387513D919E6CF7500883FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		387513DA19E6CF7500883FA7 /* Build configuration list for PBXNativeTarget "SeTctTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +465,7 @@
 				387513DC19E6CF7500883FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
