@@ -53,8 +53,8 @@ TTRWebViewControllerDelegate> {
         c.delegate = self;
 
         //  デバッグ用
-        c.name = @"kashina2";
-        c.password = @"kashina2";
+//        c.name = @"kashina2";
+//        c.password = @"kashina2";
         return;
     }
     if ([segue.identifier isEqualToString:@"showAgreeView"]) {
