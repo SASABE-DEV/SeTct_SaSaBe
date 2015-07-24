@@ -51,10 +51,7 @@ TTRWebViewControllerDelegate> {
         //  ログイン画面では、ユーザー名とパスワードを入力する。
         TTRLoginViewController* c = (TTRLoginViewController*)segue.destinationViewController;
         c.delegate = self;
-
-        //  デバッグ用
-//        c.name = @"kashina2";
-//        c.password = @"kashina2";
+//        c.name = @"kashina3";   c.password = @"kashina3";           //  デバッグ用
         return;
     }
     if ([segue.identifier isEqualToString:@"showAgreeView"]) {

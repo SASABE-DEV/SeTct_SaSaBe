@@ -52,6 +52,7 @@ typedef enum {
 
 /// デバイスIDを戻す。
 - (NSString*)identifier {
+//    return @"3FA34F8E-E4C7-481E-A548-27491DD3A2E3";   //  デバッグ用　kashina3 kashina3
     NSUUID* identifierUUID = UIDevice.currentDevice.identifierForVendor;
     printf("%s\n", identifierUUID.UUIDString.UTF8String);
     return identifierUUID.UUIDString;

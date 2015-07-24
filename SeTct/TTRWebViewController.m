@@ -9,10 +9,12 @@
 #import "TTRWebViewController.h"
 #import "TTRRecordManager.h"
 
-@interface TTRWebViewController ()
+@interface TTRWebViewController ()<UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UIButton *homeButton;
 @property (weak, nonatomic) IBOutlet UIButton *logoutButton;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicatorView;
+@property (weak, nonatomic) IBOutlet UILabel *failLabel;
 
 @end
 
@@ -35,5 +37,32 @@
 - (IBAction)home {
     [_webView loadRequest:_URLRequest];
     [_delegate webViewController:self withAction:@"Home"];
+}
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    if (navigationType == UIWebViewNavigationTypeLinkClicked) { // リンクがクリックされた。
+        NSString* str = [request.URL standardizedURL].absoluteString;
+        NSRange range = [str rangeOfString:@"webroot"];
+        if (range.location != NSNotFound) {
+            [[UIApplication sharedApplication] openURL:[request.URL standardizedURL]];
+            return NO;
+        }
+    }
+    return YES;
+}
+
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+    [_activityIndicatorView startAnimating];
+    _failLabel.hidden = YES;
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [_activityIndicatorView stopAnimating];
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+    [_activityIndicatorView stopAnimating];
+    _failLabel.hidden = NO;
+    
 }
 @end
